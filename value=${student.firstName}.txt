@@ -1,0 +1,12 @@
+value="${student.firstName}"
+
+
+ value="${student.lastName}"
+
+value="Male" ${student.gender == 'Male' ? 'checked' : ''}
+
+value="Female" ${student.gender == 'Female' ? 'checked' : ''}
+
+value="${student.course}"
+
+value="${student.rollNo == 0 ? 'Save' :'Update'}"
